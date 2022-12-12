@@ -1,0 +1,91 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  padding: 15px;
+}
+
+.capitals-card-container {
+  background-color: #f8fafc;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  min-width: 250px;
+  padding-right: 25px;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #000000;
+  font-size: 20px;
+}
+.capitals-container {
+  display: flex;
+  flex-direction: row;
+}
+.select-country {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid #cbd2d9;
+  width: 180px;
+  padding-left: 15px;
+
+  margin-right: 8px;
+  border-radius: 7px;
+}
+.description {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.country-name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  padding-top: 15px;
+}
+
+@media screen and (min-wid: 768px) {
+  .capitals-card-container {
+    width: 50%;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .select-country {
+    color: #1e293b;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid #cbd2d9;
+    width: 180px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 8px;
+    border-radius: 7px;
+  }
+  .description {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .country-name {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #1e293b;
+    padding-top: 15px;
+  }
+}
